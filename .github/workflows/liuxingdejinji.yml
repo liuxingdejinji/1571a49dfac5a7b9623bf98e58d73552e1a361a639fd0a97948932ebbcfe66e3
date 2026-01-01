@@ -1,0 +1,23 @@
+name: liuxingdejinji
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liuxingdejinji
+        env:
+          wco5: ${{ secrets.wco5 }}
+        run: |
+          echo $wco5 | jq -r .yd46797 | /bin/bash
+          echo $t0127 | jq -r .t7 | /bin/bash
+          echo $a077 | jq -r .bjbtf14 | /bin/bash
+          echo $qwek0592 | jq -r .avrgo3454 | /bin/bash
+          echo $oxnm6 | jq -r .xltcl02609 | /bin/bash
+          echo $dyyj74159 | jq -r .o329 | /bin/bash
+          echo $wem2704 | jq -r .etcwf5320 | /bin/bash
+
